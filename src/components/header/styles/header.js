@@ -96,7 +96,7 @@ export const Link = styled.p`
   color: #fff;
   text-decoration: none;
   margin-right: 30px;
-  font-weight: ${({ active }) => (active === 'true' ? '700' : 'normal')};
+  font-weight: ${({ active }) => (active === true ? '700' : 'normal')};
   cursor: pointer;
   &:hover {
     font-weight: bold;
@@ -188,7 +188,7 @@ export const PlayButton = styled.button`
     margin-top: 30px;
     font-weight: bold;
     cursor: pointer;
-    transition: background-color 0.5;
+    transition: background-color 0.2s;
 
     &:hover{
         background-color: #ff1e1e;
